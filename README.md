@@ -31,7 +31,7 @@ function changeState(state, action){
 }
 
 function dispatch(action){
-    state = changeState(state, action)
+    state = changeState(state, action) 
     render()
 }
 
